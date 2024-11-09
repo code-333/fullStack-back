@@ -7,7 +7,7 @@ const http = require("http");
     una function para controlar las peticiones que llegan a esta maquina*/
 
 function requestController(){
-     console.log({http});
+     console.log("Hello World");
 }
 
 const server = http.createServer(requestController);    
